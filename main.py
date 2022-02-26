@@ -77,6 +77,7 @@ def getProblem():
   return {'problem':problem, 'answer':answer}
 
 print('Use s in place of square root')
+print("Enter 'end' to end session")
 while True:
   right=True #variable to check if answer is accurate, used for calculating accuracy
   thing=getProblem()
