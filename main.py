@@ -99,7 +99,7 @@ while True:
         rightAnswer=number
     print(f"The right answer was {rightAnswer}")
     right=False
-  elif thing['answer']==1.83697019872103e-16 or thing['answer']==-1.83697019872103e-16 or thing['answer']==-1.2246467991473532e-16 or thing['answer']==6.123233995736766e-17 or thing['answer']==-6.123233995736766e-17 or thing['answer']==1.2246467991473532e-16 and yourAnswer=='0': #this is bc math.isclose is a bitch and I didn't think of comparing the difference 
+  elif thing['answer']==1.83697019872103e-16 or thing['answer']==-1.83697019872103e-16 or thing['answer']==-1.2246467991473532e-16 or thing['answer']==6.123233995736766e-17 or thing['answer']==-6.123233995736766e-17 or thing['answer']==1.2246467991473532e-16 and yourAnswer=='0': #i couldn't think of another way to do this 
     print('right')
   elif thing['answer']==1.83697019872103e-16 or thing['answer']==-1.83697019872103e-16 or thing['answer']==-1.2246467991473532e-16 or thing['answer']==1.2246467991473532e-16 or thing['answer']==6.123233995736766e-17 or thing['answer']==-6.123233995736766e-17 and yourAnswer!=0: #same thing
     print('The right answer is 0')
